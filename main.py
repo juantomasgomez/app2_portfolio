@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("pictures/my_photo.png", width=280)
+    st.image("pictures/my_photo.png")
 
 with col2:
     st.title("Juan Tomás Gómez")
@@ -16,3 +16,8 @@ with col2:
     enterprise AI and B2B SaaS ventures.
     """
     st.info(content)
+
+info_content = """
+Below, you will find an overview of the apps I have built in my python journey.
+"""
+st.write(info_content)
